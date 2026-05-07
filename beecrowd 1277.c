@@ -1,3 +1,4 @@
+// Comentários com "///" são partes do código que serão excluídas futuramente
 #include <stdio.h>
 #include <string.h>
 
