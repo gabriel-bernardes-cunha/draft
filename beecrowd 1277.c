@@ -28,8 +28,8 @@ int main () {
             scanf ("%s",f);
             ///int L=strlen(f)
             int faltas=0;
-            ///int m=0;
-            ///m é usada para controlar o atestado médico
+            int m=0;
+            //m é usada para controlar o atestado médico
             for (int q=0;q<strlen(f);q++){
                 if (f[q]=='A'){
                     faltas++;
