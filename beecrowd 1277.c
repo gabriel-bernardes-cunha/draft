@@ -40,8 +40,8 @@ int main () {
             }
             frequencias[p]=(float)(strlen(f)-m-faltas)/(strlen(f)-m);
         }
-        //quem reprovou?
-        //m vai ser usado para controlar os espaços dos nomes
+        //Agora, veremos quem reprovou?
+        //m vai ser usado para controlar os espaços dos nomes, conforme o problema solicita
         int m=0;
         for (int p=0;p<N;p++) {
             if (frequencias[p]<0.75 && m==0){
