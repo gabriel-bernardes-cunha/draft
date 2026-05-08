@@ -53,7 +53,7 @@ int main () {
             else
               printf(" %s", estudantes[p]);
 
-              primeiro = 0;*/
+            primeiro = 0;*/
             /*********************************/
             /*if (frequencias[p]<0.75 && m==0){
                 printf("%s",estudantes[p]);
