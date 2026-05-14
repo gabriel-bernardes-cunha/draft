@@ -44,9 +44,66 @@ int main() {
           if (nome[i][t]=) {
   
              oro[i][u]=nome[i][t];
+
+
+
            
           }
        }*/
     
     return 0;
 }
+
+/*
+#include <stdio.h>
+#include <string.h>
+ 
+int main() {
+
+    int N;
+    scanf("%d",&N);
+    char nome [N] [31];
+    char artista [N] [31];
+    
+    for (int i=0;i<N;i=++) {
+        //%30 para permitir ler no máximo 30 caracteres!
+        //Primeiramente, vamos atribuir as múscias e os artistas às matrizes.
+        scanf("%30s",nome[i]);
+        scanf("%30s",artista[i]);
+        }
+    }
+    //Agora, a tal "string de ouro" para cada termo, isto é, cada linha das duas matrizes anteriores.
+    
+    //Vamos criar uma matriz com as strings de ouro.
+    char oro [N][31];
+    //Criemos um vetor "Total", seu uso ficará claro em seguida.
+    char temp[30*N+1];
+    
+    for (int i=0;i<N;i=++) {
+       for(int u=0;u<N;u++){
+          if (u!=i){
+              strcat(temp,oro[i]);
+          }
+       }
+    }
+    //Agora, há um vetor com todas linhas (temp), exceto a que vai ser analisada.
+
+    //Analisando:
+       
+    for (int i=0;i<N*31;i++) {
+           
+    }
+       
+       /*for (int t=0;t<30;t++) {
+        
+          if (nome[i][t]=) {
+  
+             oro[i][u]=nome[i][t];
+           
+          }
+       }*/
+    
+    return 0;
+}
+
+*/
